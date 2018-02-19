@@ -1,20 +1,20 @@
-# dash-protocol
+# monoeci-protocol
 
-[![npm version](https://img.shields.io/npm/v/dash-protocol.svg)](https://www.npmjs.com/package/dash-protocol)
-[![Build Status](https://travis-ci.org/dashpay/dash-protocol.svg?branch=master)](https://travis-ci.org/dashpay/dash-protocol)
-[![Dependency Status](https://david-dm.org/dashpay/dash-protocol.svg)](https://david-dm.org/dashpay/dash-protocol)
+[![npm version](https://img.shields.io/npm/v/monoeci-protocol.svg)](https://www.npmjs.com/package/monoeci-protocol)
+[![Build Status](https://travis-ci.org/yoyae/monoeci-protocol.svg?branch=master)](https://travis-ci.org/yoyae/monoeci-protocol)
+[![Dependency Status](https://david-dm.org/yoyae/monoeci-protocol.svg)](https://david-dm.org/yoyae/monoeci-protocol)
 
-**Dash network protocol streams**
+**Monoeci network protocol streams**
 
 This module encodes and decodes low-level network protocol data using streams.
 
 ## Usage
 
-`npm install dash-protocol`
+`npm install monoeci-protocol`
 
 ```js
 var net = require('net')
-var bp = require('dash-protocol')
+var bp = require('monoeci-protocol')
 
 var decoder = bp.createDecodeStream()
 decoder.on('data', function (message) { console.log(message) })
